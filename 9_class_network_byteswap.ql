@@ -15,4 +15,4 @@ class NetworkByteSwap extends Expr {
 }
 
 from NetworkByteSwap n
-select n.getMI(), "Network byte swap" 
+select n.getMI().getExpr(), "Network byte swap" 
